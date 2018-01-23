@@ -39,17 +39,21 @@ export class TopoComponent implements OnInit {
       .catch((erro: any) => {
         console.log(erro);
         return Observable.of<Oferta[]>([]);
-      });
+      });     
 
-      this.ofertas.subscribe((ofertas: Oferta[]) => {
+      /*this.ofertas.subscribe((ofertas: Oferta[]) => {
         console.log(ofertas);
         this.ofertas2 = ofertas;
-      });
+      }); */
   }
 
   public pesquisa(termoDaBusca: string): void {
     console.log('Key up caractere: ', termoDaBusca);
     this.subjectPesquisa.next(termoDaBusca);
+  }
+
+  public limpaPesquisa(): void{
+    this.subjectPesquisa.next('');
   }
 
 }
