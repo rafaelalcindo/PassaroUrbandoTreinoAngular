@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 //import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { CarrinhoService } from './carrinho.service';
+
 import { ROUTES } from './app.routes';
 
 import { AppComponent } from './app.component';
@@ -46,7 +48,7 @@ import { OrdemCompraSucessoComponent } from './ordem-compra-sucesso/ordem-compra
     ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [{ provide:  LOCALE_ID, useValue: 'pt-BR' }],
+  providers: [ CarrinhoService , { provide:  LOCALE_ID, useValue: 'pt-BR' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

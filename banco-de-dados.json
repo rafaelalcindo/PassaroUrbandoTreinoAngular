@@ -241,6 +241,75 @@
       "complemento": "fasdf",
       "formaPagamento": "debito",
       "id": 8
+    },
+    {
+      "endereco": "rua dos laranjais",
+      "numero": "23",
+      "complemento": "fasfa",
+      "formaPagamento": "debito",
+      "id": 9
+    },
+    {
+      "endereco": "rua dos laranjais",
+      "numero": "23",
+      "complemento": "fasfa",
+      "formaPagamento": "debito",
+      "id": 10
+    },
+    {
+      "endereco": "rua das salamandras",
+      "numero": "42",
+      "complemento": "fasf",
+      "formaPagamento": "dinheiro",
+      "id": 11
+    },
+    {
+      "endereco": "ffdsf",
+      "numero": "23",
+      "complemento": "fasdfa",
+      "formaPagamento": "debito",
+      "itens": [
+        {
+          "id": 5,
+          "img": {
+            "url": "/assets/ofertas/5/img1.jpg"
+          },
+          "titulo": "Kart",
+          "descricao_oferta": "Bateria de Kart de 30 minutos.",
+          "valor": 54.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 12
+    },
+    {
+      "endereco": "fasdfas",
+      "numero": "12",
+      "complemento": "sdfasd",
+      "formaPagamento": "debito",
+      "itens": [
+        {
+          "id": 6,
+          "img": {
+            "url": "/assets/ofertas/6/img1.jpg"
+          },
+          "titulo": "Academia de tiro",
+          "descricao_oferta": "Sessão de tiro dinâmico com Instrutor, Estande, Alvo e Equipamentos.",
+          "valor": 89.9,
+          "quantidade": 1
+        },
+        {
+          "id": 3,
+          "img": {
+            "url": "/assets/ofertas/3/img1.jpg"
+          },
+          "titulo": "Pizzas Grandes",
+          "descricao_oferta": "Pizza Grande, Mussarela, Marguerita ou outras!",
+          "valor": 21.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 13
     }
   ]
 }
